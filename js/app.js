@@ -213,10 +213,11 @@ document.addEventListener("DOMContentLoaded", () => {
       const scroll_to = () => {
          function scroll_to(e) {
             if(navigator.platform == "iPad" || navigator.platform == "iPod" || navigator.platform == "iPhone") {
-               document.querySelector(".home_page").addEventListener("click", function() {window.location.assign("#header")});
-               document.querySelector(".about").addEventListener("click", function() {window.location.assign("#about")});
-               document.querySelector(".portfolio").addEventListener("click", function() {window.location.assign("#portfolio")});
-               document.querySelector(".contact").addEventListener("click", function() {window.location.assign("#contact")});
+               document.querySelector(".home_page").addEventListener("click", () => {window.location.assign("#header")});
+               document.querySelector(".about").addEventListener("click", () => {window.location.assign("#about")});
+               document.querySelector(".skills").addEventListener("click", () => {window.location.assign("#skills")});
+               document.querySelector(".portfolio").addEventListener("click", () => {window.location.assign("#portfolio")});
+               document.querySelector(".contact").addEventListener("click", () => {window.location.assign("#contact")});
             } else {
                window.scrollTo({
                   behavior:"smooth",
