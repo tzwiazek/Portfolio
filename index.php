@@ -334,8 +334,7 @@
                </div>
             </form>
             <?php
-               } elseif(!empty($_POST['FormName']) && !empty($_POST['FormEmail']) && !empty($_POST['FormMessage'])){
-               /* Funkcja sprawdzająca poprawność E-Maila */
+               } elseif(!empty($_POST['FormName']) && !empty($_POST['FormEmail']) && !empty($_POST['FormMessage'])) {
                function SprawdzEmail($email) {
                   if (!preg_match("#^[\w.-]+@[\w.-]+\.[a-zA-Z]{2,6}$#" , $email)){
                      return false;
