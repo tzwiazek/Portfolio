@@ -115,11 +115,6 @@
                <br />
                <span class="text-bolded">Obecnie szukam pracy, lub stażu z możliwością stałego zatrudnienia. Jeżeli jesteś zainteresowany/a współpracą skontaktuj się ze mną!</span>
             </p>
-            <div class="heading">
-               <a target="_blank" href="#">
-                  <button class="btn btn--center">POBIERZ CV</button>
-               </a>
-            </div>
          </div>
       </div>
    </section>
@@ -290,7 +285,7 @@
                         <a href="http://tzwiazek.pl/Luucas/Project%20swift/">
                            <button class="btn">Podgląd</button>
                         </a>
-                        <a href="#">
+                        <a href="https://github.com/tzwiazek/Project-swift">
                            <button class="btn">GitHub</button>
                         </a>
                      </div>
